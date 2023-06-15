@@ -50,7 +50,7 @@ icon.onclick = function () {
   document.body.classList.toggle("dark-theme");
   if (document.body.classList.contains("dark-theme")) {
     icon.src = "Images/sun.png"
-    hero_img.src = "Images/Heroo.gif"
+    hero_img.src = "Images/comp.gif"
     for (var i = 0; i < text.length; i++) {
       text[i].style.color = "#0ef";
     }
